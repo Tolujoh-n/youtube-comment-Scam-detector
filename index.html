@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam comment Detector</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div>
+        <h1
+            style="color: light blue; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; text-align: center; font-size: 50px;">
+            scam<b>A</b>lt</h1>
+    </div>
+
+    <section>
+        <a onclick="myFunction()" class="btn" href="#">
+            <div id="butext">Enable</div>
+        </a>
+    </section>
+
+
+    <script>
+        $(function () {
+            $('.btn').click(function () {
+                $(this).toggleClass('is-clicked');
+            });
+        });
+
+
+        function myFunction() {
+            var x = document.getElementById("butext");
+            if (x.innerHTML === "Enable") {
+                x.innerHTML = "Disable";
+            } else {
+                x.innerHTML = "Enable";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

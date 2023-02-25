@@ -1,0 +1,14 @@
+{
+    "name": "Fake comment detector",
+    "version": "1.0.0",
+    "description": "Dectecting fake and scam comment across various sites",
+    "manifest_version": 3,
+    "author": "Tolujohn",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "fake comment detector"
+    }
+}
+
+
+
